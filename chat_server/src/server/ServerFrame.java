@@ -9,7 +9,7 @@ public class ServerFrame extends javax.swing.JFrame
 {
    ArrayList clientStreams; 
    ArrayList<String> listClient;
-   int port = 2222;
+   int port = 5009;
    public class ClientHandler implements Runnable	
    {
        BufferedReader reader;
@@ -186,14 +186,14 @@ public class ServerFrame extends javax.swing.JFrame
                 ServerSocket serverSocket = new ServerSocket(port);
                 while (true) 
                 {
-				Socket clientSocketConnect = serverSocket.accept();
-				PrintWriter writer = new PrintWriter(clientSocketConnect.getOutputStream());
-				clientStreams.add(writer);
+                    Socket clientSocketConnect = serverSocket.accept();
+                    PrintWriter writer = new PrintWriter(clientSocketConnect.getOutputStream());
+                    clientStreams.add(writer);
 
-                                
-				Thread thread = new Thread(new ClientHandler(clientSocketConnect, writer));
-				thread.start();
-				txtAreaChat.append("A client is connected \n");
+
+                    Thread thread = new Thread(new ClientHandler(clientSocketConnect, writer));
+                    thread.start();
+                    txtAreaChat.append("A client is connected \n");
                 }
             }
             catch (Exception ex)
@@ -221,7 +221,6 @@ public class ServerFrame extends javax.swing.JFrame
     
     public void RemoveClient (String data) 
     {
-        a
         String message, add = ": :connect", name = data;
         listClient.remove(name);
         String[] tempList = new String[(listClient.size())];
