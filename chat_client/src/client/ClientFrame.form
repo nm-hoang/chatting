@@ -32,7 +32,7 @@
                   <Group type="102" attributes="0">
                       <Component id="tf_chat" min="-2" pref="352" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="b_send" pref="111" max="32767" attributes="0"/>
+                      <Component id="b_send" pref="115" max="32767" attributes="0"/>
                   </Group>
                   <Component id="jScrollPane1" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
@@ -56,15 +56,8 @@
                           <Component id="tf_port" pref="50" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="b_connect" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                              <Component id="b_disconnect" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="b_anonymous" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="b_connect" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -85,7 +78,6 @@
                   <Component id="tf_address" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="lb_port" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="tf_port" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="b_anonymous" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -95,7 +87,6 @@
                       <Component id="lb_username" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lb_password" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="b_connect" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="b_disconnect" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -103,7 +94,7 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="tf_chat" max="32767" attributes="0"/>
-                  <Component id="b_send" pref="31" max="32767" attributes="0"/>
+                  <Component id="b_send" pref="34" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="lb_name" min="-2" max="-2" attributes="0"/>
@@ -161,22 +152,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_connectActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="b_disconnect">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Disconnect"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_disconnectActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="b_anonymous">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Anonymous Login"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_anonymousActionPerformed"/>
       </Events>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
