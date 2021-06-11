@@ -12,7 +12,12 @@
     - Show danh sách các client đang connect với server
 - Cách sử dụng:
     - Trước tiên chạy file jar Chat_Server, nhấn button "Start connection" để khởi động server
+    ![Thumbnail](https://i.imgur.com/CvLjHno.png)
     - Ở client nhập tên username và nhấn button "Connect".
+    ![Thumbnail](https://i.imgur.com/CvLjHno.png)
     - Tiếp theo ta nhập nội dung tin nhắn ở box chat và nhấn button "Send" để gửi đi.
+    ![Thumbnail](https://i.imgur.com/mkda6W8.png)
+    ![Thumbnail](https://i.imgur.com/tuVFiuH.png)
+    ![Thumbnail](https://i.imgur.com/5FVjtCL.png)
     - Để xem danh sách các client đang kết nối, nhấn button "Show list client" ở server
-- Link demo: 
+    ![Thumbnail]([https://i.imgur.com/EThfYtR.png)
