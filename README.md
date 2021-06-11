@@ -8,7 +8,7 @@
         
 - Các chức năng của project
     - Client đăng ký với username và connect với server
-    ![Thumbnail](https://i.imgur.com/Mm3W0LJ.jpg)
+    ![Thumbnail](i.imgur.com/uXDB3Zc.png)
     - Các client chat trong group
     - Show danh sách các client đang connect với server
 - Cách sử dụng:
