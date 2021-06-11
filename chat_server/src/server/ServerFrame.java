@@ -153,7 +153,7 @@ public class ServerFrame extends javax.swing.JFrame
     }//GEN-LAST:event_btnStartActionPerformed
 
     private void btnShowListClientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnShowListClientActionPerformed
-        txtAreaChat.append("\n Online users : \n");
+        txtAreaChat.append("List Client: \n");
         for (String current_user : listClient)
         {
             txtAreaChat.append(current_user);
