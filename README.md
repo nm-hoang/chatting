@@ -5,8 +5,10 @@
 - Email: nmhoang.28@gmail.com
 - Setup project:
     - Giải nén file ra có 2 file jar là Chat_Server và Chat Client và source code.
+        
 - Các chức năng của project
     - Client đăng ký với username và connect với server
+    ![Thumbnail](https://i.imgur.com/Mm3W0LJ.jpg)
     - Các client chat trong group
     - Show danh sách các client đang connect với server
 - Cách sử dụng:
